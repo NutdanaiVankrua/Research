@@ -11,7 +11,7 @@ A dependency manager for Swift and Objective-C Cocoa projects
 	
 	```
 	source 'https://rubygems.org'
-	gem 'cocoapods','0.39.0'
+	gem 'cocoapods','1.0.0'
 	```
 
 6. Create `.bundle/config` inside your existing project. (mkdir, touch, nano)
