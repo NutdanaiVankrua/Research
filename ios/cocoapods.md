@@ -2,7 +2,7 @@
 A dependency manager for Swift and Objective-C Cocoa projects
 
 <br/>
-## Install Cocoapods through bundler
+## Installing through bundler
 1. Check if your computer has ruby installed, by running the command `ruby —version`
 2. (Optional) If ruby is not installed, please install first
 3. Open terminal and run `gem install bundler`
@@ -26,7 +26,7 @@ A dependency manager for Swift and Objective-C Cocoa projects
 9. To run the specific gem install inside bundle, use the following command `bundle exec ...`
 
 <br/>
-## Cocoapods Usage
+## Usage
 1. Run cmd `bundle exec pod --version` to check cocoapods installations. 
 2. Run cmd `bundle exec pod init`
 3. Specify the following
