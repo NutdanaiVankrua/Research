@@ -1,5 +1,5 @@
 ## Cocoapods
-A dependency manager for Swift and Objective-C Cocoa projects<br/>
+A dependency manager for Swift and Objective-C Cocoa projects <br/>
 
 
 ## Install Cocoapods through bundler
@@ -23,7 +23,7 @@ A dependency manager for Swift and Objective-C Cocoa projects<br/>
 	```
 
 8. In terminal, inside your xCode project, run command `bundle install`
-9. To run the specific gem install inside bundle, use the following command `bundle exec ...`<br/>
+9. To run the specific gem install inside bundle, use the following command `bundle exec ...` <br/>
 
 
 ## Cocoapods Usage
@@ -51,7 +51,7 @@ A dependency manager for Swift and Objective-C Cocoa projects<br/>
 	end
 	```
 
-4. Run cmd `bundle exec pod install`<br/>
+4. Run cmd `bundle exec pod install` <br/>
 
 
 ## References
