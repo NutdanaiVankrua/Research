@@ -2,31 +2,31 @@
 dependency manager for Swift and Objective-C Cocoa projects
 
 ### How to install Cocoapods through bundler
-1. Check if your computer has ruby installed, by running the command 'ruby —version'
+1. Check if your computer has ruby installed, by running the command `ruby —version`
 2. (Optional) If ruby is not installed, please install first
-3. Open terminal and run 'gem install b'
-4. In terminal, redirect into your project and run the following command 'bundle init'
-5. There will be a Gemfile created, then specify your dependencies. (Read more @http://bundler.io/)
+3. Open terminal and run `gem install bundler`
+4. In terminal, redirect into your project and run the following command `bundle init`
+5. There will be a Gemfile created, then specify your dependencies. [Read more](http://bundler.io/)
 	
 	```
 	source 'https://rubygems.org'
 	gem 'cocoapods','0.39.0'
 	```
 
-6. Create '.bundle/config' inside your existing project. (mkdir, touch, nano)
-7. Inside the '.bundle/config' file, edit the following
+6. Create `.bundle/config` inside your existing project. (mkdir, touch, nano)
+7. Inside the `.bundle/config` file, edit the following
 
 	```
 	BUNDLE_PATH: vendor/bundle
 	BUNDLE_DISABLE_SHARED_GEMS: '1' //for this read more @http://stackoverflow.com/questions/8104370/what-does-it-mean-bundle-disable-shared-gems-1
 	```
 
-8. In terminal, inside your xCode project, run command 'bundle install'
-9. To run the specific gem install inside bundle, use the following command 'bundle exec ...'
+8. In terminal, inside your xCode project, run command `bundle install`
+9. To run the specific gem install inside bundle, use the following command `bundle exec ...`
 
 ### How to use Cocoapods
-1. Run cmd 'bundle exec pod --version' to check cocoapods installations. 
-2. Run cmd 'bundle exec pod init'
+1. Run cmd `bundle exec pod --version` to check cocoapods installations. 
+2. Run cmd `bundle exec pod init`
 3. Specify the following: 
 
 ```
@@ -46,14 +46,14 @@ end
 
 target 'TestingBundlerAndCocoapodsUITests' do
 
-end<
+end
 ```
 
-4. Run cmd 'bundle exec pod install'
+4. Run cmd `bundle exec pod install`
 
 ### References
-*[Bundler website](http://bundler.io/)
-*[Cocoapods website](https://cocoapods.org/app)
-*[Installing Cocoapods with bundler](https://guides.cocoapods.org/using/a-gemfile.html)
-*[How to use Podfile](https://guides.cocoapods.org/using/the-podfile.html)
+* [Bundler website](http://bundler.io/)
+* [Cocoapods website](https://cocoapods.org/app)
+* [Installing Cocoapods with bundler](https://guides.cocoapods.org/using/a-gemfile.html)
+* [How to use Podfile](https://guides.cocoapods.org/using/the-podfile.html)
 
