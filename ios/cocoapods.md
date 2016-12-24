@@ -25,6 +25,7 @@ dependency manager for Swift and Objective-C Cocoa projects
 2. Run cmd 'bundle exec pod init'
 3. Specify the following: </br>
 
+```
 # Uncomment this line to define a global platform for your project</br>
 platform :ios, '8.0'</br>
 
@@ -42,12 +43,13 @@ end</br>
 target 'TestingBundlerAndCocoapodsUITests' do</br>
 </br>
 end</br>
+```
 
 4. Run cmd 'bundle exec pod install'
 
 ### References
-*Bundler website ~> http://bundler.io/<br/>
-*Cocoapods website ~> https://cocoapods.org/app<br/>
-*Installing Cocoapods with bundler ~> https://guides.cocoapods.org/using/a-gemfile.html<br/>
-*How to use Podfile ~> https://guides.cocoapods.org/using/the-podfile.html
+*[Bundler website](http://bundler.io/)
+*[Cocoapods website](https://cocoapods.org/app)
+*[Installing Cocoapods with bundler](https://guides.cocoapods.org/using/a-gemfile.html)
+*[How to use Podfile](https://guides.cocoapods.org/using/the-podfile.html)
 
