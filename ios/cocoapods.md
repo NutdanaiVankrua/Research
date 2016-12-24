@@ -28,7 +28,6 @@ A dependency manager for Swift and Objective-C Cocoa projects
 1. Run cmd `bundle exec pod --version` to check cocoapods installations. 
 2. Run cmd `bundle exec pod init`
 3. Specify the following
-
 ```
 # Uncomment this line to define a global platform for your project
 platform :ios, '8.0'
@@ -48,7 +47,6 @@ target 'TestingBundlerAndCocoapodsUITests' do
 
 end
 ```
-
 4. Run cmd `bundle exec pod install`
 
 ### References
