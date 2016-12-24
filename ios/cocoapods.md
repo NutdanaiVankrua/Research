@@ -6,16 +6,20 @@ dependency manager for Swift and Objective-C Cocoa projects
 2. (Optional) If ruby is not installed, please install first
 3. Open terminal and run 'gem install b'
 4. In terminal, redirect into your project and run the following command 'bundle init'
-5. There will be a Gemfile created, then specify your dependencies. (Read more @http://bundler.io/)</br>
+5. There will be a Gemfile created, then specify your dependencies. (Read more @http://bundler.io/)
 	
-	source 'https://rubygems.org'</br>
-	gem 'cocoapods','0.39.0'</br>
+	```
+	source 'https://rubygems.org'
+	gem 'cocoapods','0.39.0'
+	```
 
 6. Create '.bundle/config' inside your existing project. (mkdir, touch, nano)
-7. Inside the '.bundle/config' file, edit the following</br>
-	
-	BUNDLE_PATH: vendor/bundle</br>
-	BUNDLE_DISABLE_SHARED_GEMS: '1' //for this read more @http://stackoverflow.com/questions/8104370/what-does-it-mean-bundle-disable-shared-gems-1</br>
+7. Inside the '.bundle/config' file, edit the following
+
+	```
+	BUNDLE_PATH: vendor/bundle
+	BUNDLE_DISABLE_SHARED_GEMS: '1' //for this read more @http://stackoverflow.com/questions/8104370/what-does-it-mean-bundle-disable-shared-gems-1
+	```
 
 8. In terminal, inside your xCode project, run command 'bundle install'
 9. To run the specific gem install inside bundle, use the following command 'bundle exec ...'
@@ -23,26 +27,26 @@ dependency manager for Swift and Objective-C Cocoa projects
 ### How to use Cocoapods
 1. Run cmd 'bundle exec pod --version' to check cocoapods installations. 
 2. Run cmd 'bundle exec pod init'
-3. Specify the following: </br>
+3. Specify the following: 
 
 ```
-# Uncomment this line to define a global platform for your project</br>
-platform :ios, '8.0'</br>
+# Uncomment this line to define a global platform for your project
+platform :ios, '8.0'
 
-# Uncomment this line if you're using Swift</br>
-# use_frameworks!</br>
+# Uncomment this line if you're using Swift
+# use_frameworks!
 
-target 'TestingBundlerAndCocoapods' do</br>
-	pod 'MMDrawerController', '~> 0.5.7'</br>
-end</br>
+target 'TestingBundlerAndCocoapods' do
+	pod 'MMDrawerController', '~> 0.5.7'
+end
 
-target 'TestingBundlerAndCocoapodsTests' do</br>
-</br>
-end</br>
+target 'TestingBundlerAndCocoapodsTests' do
 
-target 'TestingBundlerAndCocoapodsUITests' do</br>
-</br>
-end</br>
+end
+
+target 'TestingBundlerAndCocoapodsUITests' do
+
+end<
 ```
 
 4. Run cmd 'bundle exec pod install'
