@@ -1,5 +1,5 @@
 ## Cocoapods
-dependency manager for Swift and Objective-C Cocoa projects
+A dependency manager for Swift and Objective-C Cocoa projects
 
 ### How to install Cocoapods through bundler
 1. Check if your computer has ruby installed, by running the command `ruby —version`
@@ -27,7 +27,7 @@ dependency manager for Swift and Objective-C Cocoa projects
 ### How to use Cocoapods
 1. Run cmd `bundle exec pod --version` to check cocoapods installations. 
 2. Run cmd `bundle exec pod init`
-3. Specify the following: 
+3. Specify the following
 
 ```
 # Uncomment this line to define a global platform for your project
