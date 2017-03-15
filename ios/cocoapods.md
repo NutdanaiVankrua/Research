@@ -4,7 +4,7 @@ A dependency manager for Swift and Objective-C Cocoa projects
 
 ## Installation
 
-1. Check if your computer has ruby installed, by running the command `ruby —version`<br/>
+1. Check if your computer has ruby installed, by running the command `ruby —version`
 2. (Optional) If ruby is not installed, please install first<br/>
 3. Open terminal and run `gem install bundler`<br/>
 4. In terminal, redirect into your project and run the following command `bundle init`<br/>
