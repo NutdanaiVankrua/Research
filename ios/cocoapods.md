@@ -5,10 +5,10 @@ A dependency manager for Swift and Objective-C Cocoa projects
 ## Installation
 
 1. Check if your computer has ruby installed, by running the command `ruby —version`
-2. (Optional) If ruby is not installed, please install first<br/>
-3. Open terminal and run `gem install bundler`<br/>
-4. In terminal, redirect into your project and run the following command `bundle init`<br/>
-5. There will be a Gemfile created, then specify your dependencies. [Read more](http://bundler.io/)<br/>
+2. (Optional) If ruby is not installed, please install first
+3. Open terminal and run `gem install bundler`
+4. In terminal, redirect into your project and run the following command `bundle init`
+5. There will be a Gemfile created, then specify your dependencies. [Read more](http://bundler.io/)
 	
 	```
 	source 'https://rubygems.org'
@@ -26,8 +26,8 @@ A dependency manager for Swift and Objective-C Cocoa projects
 8. In terminal, inside your xCode project, run command `bundle install`
 9. To run the specific gem install inside bundle, use the following command `bundle exec ...`
 
-<br/>
 ## Usage
+
 1. Run cmd `bundle exec pod --version` to check cocoapods installations. 
 2. Run cmd `bundle exec pod init`
 3. Specify the following
@@ -54,8 +54,8 @@ A dependency manager for Swift and Objective-C Cocoa projects
 
 4. Run cmd `bundle exec pod install`
 
-<br/>
 ## References
+
 * [Bundler website](http://bundler.io/)
 * [Cocoapods website](https://cocoapods.org/app)
 * [Installing Cocoapods with bundler](https://guides.cocoapods.org/using/a-gemfile.html)
