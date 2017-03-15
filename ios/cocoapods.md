@@ -1,5 +1,5 @@
 ## Cocoapods
-A dependency manager for Swift and Objective-C Cocoa projects
+A dependency manager for Swift and Objective-C Cocoa projects<br/>
 
 ## Installation
 1. Check if your computer has ruby installed, by running the command `ruby —version`<br/>
